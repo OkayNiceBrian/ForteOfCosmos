@@ -16,7 +16,7 @@ public class Program {
         builder.Services.AddCors(options => {
             options.AddPolicy(name: MyAllowSpecificOrigins,
                 policy => {
-                    policy.WithOrigins("http://localhost:port-of-frontend-app")
+                    policy.WithOrigins("http://localhost:5173")
                     .AllowAnyMethod()
                     .AllowCredentials()
                     .AllowAnyHeader();
