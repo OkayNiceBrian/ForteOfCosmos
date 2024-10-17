@@ -1,6 +1,5 @@
 import type CardType from "game/enums/CardType";
 import Card from "./Card";
-import type TriggerType from "game/enums/TriggerType";
 import CardEffect from "game/effects/CardEffect";
 
 class SentientCard extends Card {
