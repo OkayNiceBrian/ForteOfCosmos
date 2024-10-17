@@ -1,0 +1,8 @@
+.game-container {
+    background-color: #102a43;
+    display: flex;
+}
+
+.title-text {
+    font-size: 50pt;
+}
